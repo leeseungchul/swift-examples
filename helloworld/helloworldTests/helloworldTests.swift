@@ -1,6 +1,6 @@
 //
-//  swift_sampleTests.swift
-//  swift-sampleTests
+//  helloworldTests.swift
+//  helloworldTests
 //
 //  Created by HyunJin Moon on 2014. 7. 5..
 //  Copyright (c) 2014년 HyunJin Moon. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class swift_sampleTests: XCTestCase {
+class helloworldTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

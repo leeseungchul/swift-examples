@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  swift-sample
+//  helloworld
 //
 //  Created by HyunJin Moon on 2014. 7. 5..
 //  Copyright (c) 2014년 HyunJin Moon. All rights reserved.
@@ -77,7 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // If the model doesn't already exist, it is created from the application's model.
     var managedObjectModel: NSManagedObjectModel {
         if !_managedObjectModel {
-            let modelURL = NSBundle.mainBundle().URLForResource("swift_sample", withExtension: "momd")
+            let modelURL = NSBundle.mainBundle().URLForResource("helloworld", withExtension: "momd")
             _managedObjectModel = NSManagedObjectModel(contentsOfURL: modelURL)
         }
         return _managedObjectModel!
@@ -88,7 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // If the coordinator doesn't already exist, it is created and the application's store added to it.
     var persistentStoreCoordinator: NSPersistentStoreCoordinator {
         if !_persistentStoreCoordinator {
-            let storeURL = self.applicationDocumentsDirectory.URLByAppendingPathComponent("swift_sample.sqlite")
+            let storeURL = self.applicationDocumentsDirectory.URLByAppendingPathComponent("helloworld.sqlite")
             var error: NSError? = nil
             _persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
             if _persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: storeURL, options: nil, error: &error) == nil {

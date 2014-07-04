@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  swift-sample
+//  helloworld
 //
 //  Created by HyunJin Moon on 2014. 7. 5..
 //  Copyright (c) 2014년 HyunJin Moon. All rights reserved.
@@ -21,9 +21,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     @IBAction func myAction(sender:AnyObject){
         myLabel.text = "Hello World";
     }
+
 }
 

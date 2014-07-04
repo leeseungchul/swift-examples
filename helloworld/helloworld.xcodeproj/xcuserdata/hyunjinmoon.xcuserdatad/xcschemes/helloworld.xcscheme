@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8AE80C121966FF45004FFF54"
-               BuildableName = "swift-sample.app"
-               BlueprintName = "swift-sample"
-               ReferencedContainer = "container:swift-sample.xcodeproj">
+               BlueprintIdentifier = "8AE4A16919670D05002896C8"
+               BuildableName = "helloworld.app"
+               BlueprintName = "helloworld"
+               ReferencedContainer = "container:helloworld.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8AE80C271966FF45004FFF54"
-               BuildableName = "swift-sampleTests.xctest"
-               BlueprintName = "swift-sampleTests"
-               ReferencedContainer = "container:swift-sample.xcodeproj">
+               BlueprintIdentifier = "8AE4A17E19670D06002896C8"
+               BuildableName = "helloworldTests.xctest"
+               BlueprintName = "helloworldTests"
+               ReferencedContainer = "container:helloworld.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8AE80C121966FF45004FFF54"
-            BuildableName = "swift-sample.app"
-            BlueprintName = "swift-sample"
-            ReferencedContainer = "container:swift-sample.xcodeproj">
+            BlueprintIdentifier = "8AE4A16919670D05002896C8"
+            BuildableName = "helloworld.app"
+            BlueprintName = "helloworld"
+            ReferencedContainer = "container:helloworld.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8AE80C121966FF45004FFF54"
-            BuildableName = "swift-sample.app"
-            BlueprintName = "swift-sample"
-            ReferencedContainer = "container:swift-sample.xcodeproj">
+            BlueprintIdentifier = "8AE4A16919670D05002896C8"
+            BuildableName = "helloworld.app"
+            BlueprintName = "helloworld"
+            ReferencedContainer = "container:helloworld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8AE80C121966FF45004FFF54"
-            BuildableName = "swift-sample.app"
-            BlueprintName = "swift-sample"
-            ReferencedContainer = "container:swift-sample.xcodeproj">
+            BlueprintIdentifier = "8AE4A16919670D05002896C8"
+            BuildableName = "helloworld.app"
+            BlueprintName = "helloworld"
+            ReferencedContainer = "container:helloworld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
